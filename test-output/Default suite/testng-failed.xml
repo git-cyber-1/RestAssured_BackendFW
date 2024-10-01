@@ -3,14 +3,11 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="com.ninza.hrm.api.projectTest.ProjectTestWithUtilitywithannotatuons">
+      <class name="mocking_Spark.CreditCardPaymentTest">
         <methods>
-          <include name="configBS"/>
-          <include name="addSingleProjectWithCreated"/>
-          <include name="configAS"/>
-          <include name="addDuplicateProject"/>
+          <include name="creditcard_Test"/>
         </methods>
-      </class> <!-- com.ninza.hrm.api.projectTest.ProjectTestWithUtilitywithannotatuons -->
+      </class> <!-- mocking_Spark.CreditCardPaymentTest -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
